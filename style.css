@@ -1,0 +1,59 @@
+body{
+  background-color:#FFF;
+  font-size: 16px;
+  margin: 0;
+}
+h2{
+  margin: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* 레이아웃 */
+.wrapper {
+  background-color: yellow;
+}
+.header, .visual, .main, .slogan, .footer{
+  width: 940px;
+  margin: 0 auto;
+}
+.header {
+  background-color: pink;
+  height: 10vh;
+}
+.visual{
+  background-color: lime;
+  height: 10vh;
+}
+.main{
+  background-color: skyblue;
+  height: 30vh;
+  overflow: hidden;
+}
+.group{
+  height: 30vh;
+  float: left;
+}
+.group1{
+  background-color: rgba(255,255,255,.5);
+  position: relative;
+  left: -20px;
+}
+.group2{
+  background-color: hsla(120,20%,60%,0.5);
+}
+.group3{
+  background-color: tomato;
+}
+.slogan{
+  background-color: blueviolet;
+  height: 10vh;
+  clear: both;
+}
+.footer-bg{
+  background-color: orange;
+}
+.footer{
+  background-color: silver;
+  height: 10vh;
+}
